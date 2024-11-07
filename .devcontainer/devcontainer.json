@@ -2,7 +2,7 @@
 // https://github.com/devcontainers/images/tree/main/src/javascript-node
 {
   "name": "JavaScript Codespace Template",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18.9-bullseye",
   "hostRequirements": {
     "cpus": 4
   },
@@ -23,7 +23,8 @@
         "esbenp.prettier-vscode",
         "GitHub.copilot",
         "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azurestaticwebapps"
+        "ms-azuretools.vscode-azurestaticwebapps",
+        "oderwat.indent-rainbow"
       ]
     }
   },
